@@ -18,7 +18,6 @@ export const NumberGuess = () => {
 
   const dispatch = useDispatch()
   const whichPlayer = useSelector((state)=> state.numberguess.player);
-  const Arr = useSelector((state)=> state.numberguess.playerNumbers)
   const errSMS = useSelector((state)=> state.numberguess.err)
   const typed = useSelector((state)=> state.numberguess.guessInput)
   const winner = useSelector((state)=> state.numberguess.winners)
